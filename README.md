@@ -14,7 +14,7 @@
 
 ## Live Demo (comming soon)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](comming soon)
 
 
 ## Getting Started
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 clone the repo first using the following command:
-git clone https://github.com/yayner2002/calculatorApp.git
+git clone https://github.com/yayner2002/reactcalculatorapp.git
 then run the following commands:
   cd calculatorApp
   npm install
