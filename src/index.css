@@ -25,3 +25,7 @@ code {
     'Courier New',
     monospace;
 }
+
+.result-container {
+  text-align: right;
+}
