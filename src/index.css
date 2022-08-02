@@ -45,8 +45,7 @@ button {
   cursor: pointer;
   color: #000;
   font-size: 25px;
-  border: 2px solid rgb(209,209,209);
-
+  border: 2px solid rgb(209, 209, 209);
 }
 
 .rows {
@@ -77,8 +76,14 @@ button {
   border: none;
   border-top: 2px solid #e0e0e0;
 }
-.container{
+
+.container {
   width: 80%;
   height: 100vh;
   margin: auto;
+}
+
+.row-1 button:nth-child(1),
+.row-1 button:nth-child(2) {
+  font-size: 18px;
 }
