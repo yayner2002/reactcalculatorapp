@@ -38,7 +38,8 @@ code {
   overflow: hidden;
   margin: 0;
 }
-.result-container span:last-child{
+
+.result-container span:last-child {
   padding-bottom: 10px;
 }
 
