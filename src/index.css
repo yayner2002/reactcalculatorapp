@@ -25,3 +25,65 @@ code {
     'Courier New',
     monospace;
 }
+
+.result-container {
+  text-align: right;
+  background-color: rgb(133, 134, 148);
+  padding: 30px 10px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  max-height: 10vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+button {
+  padding: 25px;
+  background-color: rgb(224, 224, 224);
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 25px;
+  border: 2px solid rgb(209, 209, 209);
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.rows .row-1,
+.rows .row-2,
+.rows .row-3,
+.rows .row-4,
+.rows .row-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.rows .row-5 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.row-1 button:last-child,
+.row-2 button:last-child,
+.row-3 button:last-child,
+.row-4 button:last-child,
+.row-5 button:last-child {
+  background-color: #f5913e;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+.row-1 button:nth-child(1),
+.row-1 button:nth-child(2) {
+  font-size: 18px;
+}
