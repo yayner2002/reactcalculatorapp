@@ -29,13 +29,17 @@ code {
 .result-container {
   text-align: right;
   background-color: rgb(133, 134, 148);
-  padding: 30px 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
-  max-height: 10vh;
+  height: 6vh;
   overflow: hidden;
   margin: 0;
+}
+.result-container span:last-child{
+  padding-bottom: 10px;
 }
 
 button {
