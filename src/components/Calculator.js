@@ -12,7 +12,7 @@ function Calculator() {
 
   const handleClick = (e) => {
     const buttonName = e.target.id;
-    setInitialState(prevState => ({})
+    setInitialState((prevState) => calculate(prevState, buttonName));
   };
   return (
     <div className="container">
