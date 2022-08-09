@@ -1,0 +1,35 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+nav {
+  min-height: 10vh;
+  background-color: rgb(73, 79, 82);
+  position: static;
+  color: #fff;
+}
+
+.navContents {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.navLinks {
+  width: 18%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navLinks li {
+  border-right: 2px solid chocolate;
+  padding: 0 10px;
+}
