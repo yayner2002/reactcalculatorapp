@@ -1,4 +1,4 @@
-.resultContainer{
+.resultContainer {
   text-align: right;
   background-color: rgb(133, 134, 148);
   padding-bottom: 20px;
@@ -10,20 +10,21 @@
   overflow: hidden;
   margin: 0;
 }
-.calculatorPageContainer{
+
+.calculatorPageContainer {
   display: flex;
   align-items: flex-start;
   width: 90%;
   margin: 2rem auto;
-
-
 }
-.calculatorContainer{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    flex: 2;
+
+.calculatorContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
 }
+
 button {
   padding: 25px;
   background-color: rgb(224, 224, 224);
@@ -67,12 +68,15 @@ button {
 .row-1 button:nth-child(2) {
   font-size: 17px;
 }
-.row-1 button:nth-child(4){
+
+.row-1 button:nth-child(4) {
   padding-right: 1.4em;
 }
+
 .resultContainer span:last-child {
   padding-bottom: 10px;
 }
-.contentLeft{
+
+.contentLeft {
   min-width: 25%;
 }
