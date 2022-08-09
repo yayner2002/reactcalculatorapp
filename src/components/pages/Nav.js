@@ -10,7 +10,9 @@ function Nav() {
   return (
     <nav className="navBar">
       <div className="navContents">
-        <h1>Math Magicians</h1>
+        <Link to="/" style={navStyle}>
+          <h1>Math Magicians</h1>
+        </Link>
         <ul className="navLinks">
           <Link to="/" style={navStyle}>
             <li>Home</li>

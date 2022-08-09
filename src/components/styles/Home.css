@@ -1,5 +1,5 @@
 .homeContainer{
   width: 90%;
-  margin: auto;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  margin: 2rem auto;
 }
