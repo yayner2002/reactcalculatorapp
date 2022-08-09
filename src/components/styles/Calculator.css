@@ -1,0 +1,77 @@
+.resultContainer{
+  text-align: right;
+  background-color: rgb(133, 134, 148);
+  padding-bottom: 20px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  height: 6vh;
+  overflow: hidden;
+  margin: 0;
+}
+.calculatorPageContainer{
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.calculatorContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+button {
+  padding: 25px;
+  background-color: rgb(224, 224, 224);
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 25px;
+  border: 2px solid rgb(209, 209, 209);
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.rows .row-1,
+.rows .row-2,
+.rows .row-3,
+.rows .row-4,
+.rows .row-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.rows .row-5 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.row-1 button:last-child,
+.row-2 button:last-child,
+.row-3 button:last-child,
+.row-4 button:last-child,
+.row-5 button:last-child {
+  background-color: #f5913e;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+}
+
+.row-1 button:nth-child(1),
+.row-1 button:nth-child(2) {
+  font-size: 17px;
+}
+.row-1 button:nth-child(4){
+  padding-right: 1.4em;
+}
+.resultContainer span:last-child {
+  padding-bottom: 10px;
+}
+.contentLeft{
+  min-width: 25%;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import './styles/Calculator.css';
 
 function Calculator() {
   const [initState, setInitialState] = useState({
@@ -15,9 +16,12 @@ function Calculator() {
     setInitialState((prevState) => calculate(prevState, buttonName));
   };
   return (
-    <div className="calculator-container">
-      <div className="container">
-        <div className="result-container">
+    <div className="calculatorPageContainer">
+      <div className="contentLeft">
+        <h3>Lets do some Math Here</h3>
+      </div>
+      <div className="calculatorContainer">
+        <div className="resultContainer">
           <span>{total}</span>
           <span>{operation}</span>
           <span>{next}</span>

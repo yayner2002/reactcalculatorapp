@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Quote.css';
 
 function quote() {
   return (
-    <div>
+    <div className="quoteContainer">
       <h1>Best Quotes of maths</h1>
       <h3>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error fuga
