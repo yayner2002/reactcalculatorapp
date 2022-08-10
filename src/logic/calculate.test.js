@@ -1,4 +1,4 @@
-import calculate from "./calculate";
+import calculate from './calculate';
 
 // arrange
 const mockState = {
@@ -7,26 +7,26 @@ const mockState = {
   operation: null,
 };
 
-describe("CALCULATE TESTS\n", () => {
-  test("should reset all state (AC)", () => {
-    expect(calculate(mockState, "AC")).toStrictEqual({
+describe('CALCULATE TESTS\n', () => {
+  test('should reset all state (AC)', () => {
+    expect(calculate(mockState, 'AC')).toStrictEqual({
       total: null,
       next: null,
       operation: null,
     });
   });
-  test("should update number", () => {
-    expect(calculate(mockState, "1")).toStrictEqual({
+  test('should update number', () => {
+    expect(calculate(mockState, '1')).toStrictEqual({
       total: null,
-      next: "1"
+      next: '1',
     });
   });
-  test("should add operation", () => {
-    const numState = {...mockState, next : '1'}
-    expect(calculate(numState, "+")).toStrictEqual({
-      operation: "+",
-      total: "1",
-      next: null
+  test('should add operation', () => {
+    const numState = { ...mockState, next: '1' };
+    expect(calculate(numState, '+')).toStrictEqual({
+      operation: '+',
+      total: '1',
+      next: null,
     });
   });
 });
