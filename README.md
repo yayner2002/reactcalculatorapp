@@ -12,9 +12,12 @@
 - React
 - webpack
 
-## Live Demo (comming soon)
+## Live Demo
 
-[Live Demo Link](comming soon)
+[https://yayner-react-calculator.netlify.app/]
+
+[]
+
 
 
 ## Getting Started
