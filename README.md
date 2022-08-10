@@ -14,10 +14,7 @@
 
 ## Live Demo
 
-[https://yayner-react-calculator.netlify.app/]
-
-[https://yaycalcapp.herokuapp.com/]
-
+[heroku](https://yaycalcapp.herokuapp.com/) | [netlify](https://yayner-react-calculator.netlify.app/)
 
 
 ## Getting Started
