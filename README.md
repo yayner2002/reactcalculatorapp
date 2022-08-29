@@ -10,17 +10,16 @@
 ## Built With
 
 - React
+- React Router
 - webpack
-
+## Screenshot
+![mockup](/public/reactcal.png?raw=true "mockup")
 ## Live Demo
 
 [heroku](https://yaycalcapp.herokuapp.com/) | [netlify](https://yayner-react-calculator.netlify.app/)
 
 
 ## Getting Started
-
-
-
 
 To get a local copy up and running follow these simple example steps.
 
